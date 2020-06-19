@@ -5,9 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <h1>
-          Hello welcome to my React App
+       <h1>
+          Deep Properties
         </h1>
       </header>
     </div>
