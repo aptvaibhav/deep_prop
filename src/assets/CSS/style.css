@@ -1,0 +1,61 @@
+/* DO NOT DELETE-For removing blue select border around the user mobile number in navbar */
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.selectItem {
+  background: transparent !important;
+}
+
+/*--------------- */
+
+.zoom-effect-container {
+  float: left;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.image-card img {
+  -webkit-transition: 0.2s ease;
+  transition: 0.4s ease;
+  height: 400px;
+}
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.line {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 15px;
+}
+.line span {
+  background: #fff;
+  padding: 0 5px;
+}
+
+/* for About us */
+
+@media screen and (min-width: 768px) {
+  .alignTextCenterOnMobileView {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .alignCenterOnMobileView {
+    text-align: center !important;
+  }
+  .tempCookClass {
+    height: 75% !important;
+  }
+}
