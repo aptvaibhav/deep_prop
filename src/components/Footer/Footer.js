@@ -9,7 +9,7 @@ import "../../assets/CSS/globalstyles.css";
 // 3rd party libraries
 import { Link } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
-// import { SocialIcon } from "react-social-icons";
+import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
   return (
@@ -25,7 +25,7 @@ export default function Footer() {
             <div className="text-light ">
               <div className="mb-2">
                 <Link
-                  to="/about"
+                  to="/about-us"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   About Us
@@ -33,7 +33,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <a
-                  href="https://blog.coox.in"
+                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
@@ -43,16 +43,16 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/how-it-works"
+                  to="/contact-us"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  How It Works
+                  Contact Us
                 </Link>
               </div>
 
               <div className="mb-2">
                 <Link
-                  to="/hiring"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   We are Hiring
@@ -61,15 +61,15 @@ export default function Footer() {
 
               <div className="mb-2">
                 <Link
-                  to="/register-as-cook"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  Register as Cook
+                  Register with Us
                 </Link>
               </div>
               <div className="mb-2">
                 <Link
-                  to=""
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Privacy Policy
@@ -77,7 +77,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to=""
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Terms & Conditions
@@ -85,7 +85,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/sitemap"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Sitemap
@@ -103,7 +103,7 @@ export default function Footer() {
             <div className="text-light ">
               <div className="mb-2">
                 <Link
-                  to="/city/delhi"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Delhi
@@ -111,7 +111,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/city/noida"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Noida
@@ -119,7 +119,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/city/gurugram"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Gurugram
@@ -127,7 +127,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/city/faridabad"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Faridabad
@@ -135,7 +135,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/city/ghaziabad"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Ghaziabad
@@ -143,7 +143,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
-                  to="/city/greater-noida"
+                  to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Greater Noida
@@ -161,10 +161,10 @@ export default function Footer() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="mailto:hello@coox.in"
+                  href="mailto:vaibhav31122@gmail.com"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  hello@coox.in
+                  vaibhav31122@gmail.com
                 </a>
               </div>
               <div className="mb-2">
@@ -174,12 +174,12 @@ export default function Footer() {
                   href="tel:9004044234"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  9004-044-234
+                  +91-9810289415
                 </a>
               </div>
               <div className="mb-2">
                 <a
-                  href="https://wa.me/919004044234?text=Hey,%20I%20want%20to%20book%20a%20cook%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%8D%B3%20"
+                  href="https://api.whatsapp.com/send?phone=9013610838&text=&source=&data=&app_absent="
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
@@ -191,12 +191,12 @@ export default function Footer() {
           </Col>
         </Row>
         <hr style={{ border: "0.1px solid whitesmoke" }} />
-        {/* <Row>
+        <Row>
           {/* <Col md={2}>
 						<img src={logo} alt='COOX LOGO' height='30' className=' m-2' />
 					</Col> */}
 
-          {/* <Col md={6} className="text-md-left text-center">
+          <Col md={6} className="text-md-left text-center">
             <SocialIcon
               url="https://www.facebook.com/COOXtech/"
               target="_blank"
@@ -243,10 +243,10 @@ export default function Footer() {
           </Col>
           <Col md={6}>
             <div className="m-md-2 globalFontFamily text-md-right text-center mt-3">
-              Copyright © 2020 COOX - All Rights Reserved.
-            </div
+              Copyright © 2020 Deep Properties & Builders - All Rights Reserved.
+            </div>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </div>
   );
