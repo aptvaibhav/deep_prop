@@ -22,7 +22,7 @@
     "react-typist-loop": "0.0.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
