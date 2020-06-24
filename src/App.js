@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Loading from "../src/components/pages/Loading";
 import Footer from "../src/components/Footer/Footer";
 import NotFound from "../src/components/pages/NotFound";
+import ScrollToTop from "../src/components/pages/ScrollToTop";
 const Home = lazy(() => import("./components/pages/Home"));
 const ContactUs = lazy(() => import("../src/components/pages/Contactus"));
 const AboutUs = lazy(() => import("../src/components/pages/AboutUs"));
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <div>
       <Router>
+      <ScrollToTop />
       <Suspense fallback={<Loading />}>
     
         <NavBar />
