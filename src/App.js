@@ -4,9 +4,12 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; 
 import Loading from "../src/components/pages/Loading";
 import Footer from "../src/components/Footer/Footer";
+import NotFound from "../src/components/pages/NotFound";
 const Home = lazy(() => import("./components/pages/Home"));
 const ContactUs = lazy(() => import("../src/components/pages/Contactus"));
 const AboutUs = lazy(() => import("../src/components/pages/AboutUs"));
+// const City = lazy(() => import("./components/pages/City"));
+
 
 class App extends Component {
 
@@ -20,15 +23,17 @@ class App extends Component {
       <div>
       <Router>
       <Suspense fallback={<Loading />}>
-      <div className="navBarPosition">
+    
         <NavBar />
-        </div>
+      
         <div style={{ marginTop: "60px" }}>
         <Switch>
           {/* <Route exact path="/" render={<Home />} /> */}
           <Route exact path="/" component={Home} />
           <Route exact path="/contact-us" component={ContactUs}/>
           <Route exact path="/about-us" component={AboutUs}/>
+          {/* <Route exact path="/city" component={City}/> */}
+          <Route path="*" component={NotFound} />
         </Switch>
         </div>
         </Suspense>

@@ -31,7 +31,7 @@ export default function Footer() {
                   About Us
                 </Link>
               </div>
-              <div className="mb-2">
+              {/* <div className="mb-2">
                 <a
                   href="/"
                   target="_blank"
@@ -40,7 +40,7 @@ export default function Footer() {
                 >
                   Blog
                 </a>
-              </div>
+              </div> */}
               <div className="mb-2">
                 <Link
                   to="/contact-us"
@@ -50,47 +50,14 @@ export default function Footer() {
                 </Link>
               </div>
 
-              <div className="mb-2">
+              {/* <div className="mb-2">
                 <Link
                   to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   We are Hiring
                 </Link>
-              </div>
-
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Register with Us
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Privacy Policy
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Terms & Conditions
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Sitemap
-                </Link>
-              </div>
+              </div> */}
             </div>
           </Col>
 
@@ -106,14 +73,6 @@ export default function Footer() {
                   to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  Delhi
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
                   Noida
                 </Link>
               </div>
@@ -123,14 +82,6 @@ export default function Footer() {
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Gurugram
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Faridabad
                 </Link>
               </div>
               <div className="mb-2">
@@ -158,20 +109,26 @@ export default function Footer() {
 
             <div className="text-light ">
               <div className="mb-2">
+                <p>
+                  First Floor Studio Number 19, Plot number 10, Gateway Market
+                  Gardenia Sector-75,Noida-201301
+                </p>
+              </div>
+              <div className="mb-2">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="mailto:vaibhav31122@gmail.com"
+                  href="mailto:dpandbuilders@gmail.com"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
-                  vaibhav31122@gmail.com
+                  dpandbuilders@gmail.com
                 </a>
               </div>
               <div className="mb-2">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="tel:9004044234"
+                  href="tel:9810289415"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   +91-9810289415
@@ -179,7 +136,7 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <a
-                  href="https://api.whatsapp.com/send?phone=9013610838&text=&source=&data=&app_absent="
+                  href="https://wa.me/919013610838"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
@@ -196,37 +153,37 @@ export default function Footer() {
 						<img src={logo} alt='COOX LOGO' height='30' className=' m-2' />
 					</Col> */}
 
-          <Col md={6} className="text-md-left text-center">
+          <Col md={6} className="text-md-left">
             <SocialIcon
-              url="https://www.facebook.com/COOXtech/"
+              url="https://www.facebook.com/Deep-Properties-And-Builders-114386600319897"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
               bgColor="white"
             />
             <SocialIcon
-              url="https://www.instagram.com/coox.in/"
+              url="https://www.instagram.com/dpandbuilders/"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
               bgColor="white"
             />
             <SocialIcon
-              url="https://www.linkedin.com/company/cooxtech/"
+              url="https://www.linkedin.com/in/deep-properties-and-builders-460a6b1a9/"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
               bgColor="white"
             />
             <SocialIcon
-              url="https://twitter.com/COOX64958055"
+              url="https://twitter.com/DeepBuilders"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
               bgColor="white"
             />
             <SocialIcon
-              url="https://www.youtube.com/channel/UCTgoZ4zkFnB0UfbUBGOE3kA/"
+              url="https://www.youtube.com/channel/UC9rT4dSfRTY8oOgRdcdeCzw"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
@@ -234,7 +191,7 @@ export default function Footer() {
             />
             <SocialIcon
               network="whatsapp"
-              url="https://wa.me/919004044234?text=Hey,%20I%20want%20to%20book%20a%20cook%20%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%8D%B3%20"
+              url="https://wa.me/919013610838"
               target="_blank"
               style={{ height: 30, width: 30 }}
               className="m-2"
@@ -242,7 +199,7 @@ export default function Footer() {
             />
           </Col>
           <Col md={6}>
-            <div className="m-md-2 globalFontFamily text-md-right text-center mt-3">
+            <div className="m-md-2 globalFontFamily text-md-right mt-3">
               Copyright © 2020 Deep Properties & Builders - All Rights Reserved.
             </div>
           </Col>
