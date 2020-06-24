@@ -7,6 +7,7 @@ import "../../assets/CSS/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link as LinkScroll } from "react-scroll";
 import { faChevronCircleDown } from "@fortawesome/free-solid-svg-icons";
+import phone from "../../assets/images/phone.png";
 //        @fortawesome/free-solid-svg-icons
 
 const contact = () => (
@@ -63,6 +64,8 @@ const contact = () => (
         </>
       )}
     </div>
+    <br />
+    <br />
     <div style={{ textAlign: "center" }}>
       <h2
         className="text-center globalDarkGoldenColor globalFontFamily font-weight-bolder"
@@ -71,15 +74,15 @@ const contact = () => (
         Contact Us
       </h2>
     </div>
-    <div style={{ marginLeft: "60px" }}>
+    <div style={{ marginLeft: "60px" }} className="text-muted">
       <p>
         For general queries, mail us at{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="mailto:vaibhav31122@gmail.com"
+          href="mailto:dpandbuilders@gmail.com"
         >
-          vaibhav31122@gmail.com
+         dpandbuilders@gmail.com
         </a>
       </p>
 
@@ -100,9 +103,39 @@ const contact = () => (
         </a>
       </p>
       <br />
+      <p>
+      <a
+        href="https://wa.me/919013610838"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Chat on WhatsApp
+        </a>
+      </p>
+      <br />
       <p>Registered Address</p>
 
-      <p>1st Floor, D-154, Sector 47, Noida, Uttar Pradesh - 201303, India</p>
+      <p>First Floor Studio Number 19, Plot number 10, Gateway Market Gardenia<br />
+        Sector-75,Noida<br />
+       Uttar Pradesh 201301</p>
+       <p
+      style={{
+        position: "fixed",
+        bottom: "0",
+        right: "0",
+        zIndex: 10,
+      }}
+      align="right"
+      className="p-3 m-0"
+    >
+      <a
+         target="_blank"
+          rel="noopener noreferrer"
+          href="tel:9810289415"
+      >
+        <img src={phone} alt="phone" height="50px" />
+      </a>
+    </p>
     </div>
   </Aux>
 );
