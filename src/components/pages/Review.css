@@ -1,0 +1,20 @@
+.zoom-effect-container {
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.image-card img {
+	-webkit-transition: 0.2s ease;
+	transition: 0.4s ease;
+	height: 400px;
+}
+.zoom-effect-container:hover .image-card img {
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08);
+}
+
+.userImg {
+	height: 100px !important;
+	width: 100px !important;
+}

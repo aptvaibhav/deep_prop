@@ -1,0 +1,53 @@
+.globalDarkGreyTxt {
+    color: #666666 !important;
+  }
+  .globalLightGreyTxt {
+    color: #616161 !important;
+  }
+  .globalDarkGoldenColor {
+    color: #855e22 !important;
+  }
+  .globalLightGoldenColor {
+    color: #8c7500 !important;
+  }
+  
+  .globalFontSize10 {
+    font-size: 10px !important;
+  }
+  .globalFontSize12 {
+    font-size: 12px !important;
+  }
+  .globalFontSize14 {
+    font-size: 14px !important;
+  }
+  .globalFontSize16 {
+    font-size: 16px !important;
+  }
+  .globalFontSize18 {
+    font-size: 18px !important;
+  }
+  .globalFontSize20 {
+    font-size: 20px !important;
+  }
+  .globalFontSize25 {
+    font-size: 25px !important;
+  }
+  .globalFontSize28 {
+    font-size: 28px !important;
+  }
+  
+  .globalGreyTickSize {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .globalFontFamily {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .globalCursorPointer {
+    cursor: pointer;
+  }
+  
