@@ -73,7 +73,7 @@ const contact = () => (
         Contact Us
       </h2>
     </div>
-    <div className="text-muted margin-left">
+    <div className="text-muted margin">
       <p>
         For general queries, mail us at{" "}
         <a
