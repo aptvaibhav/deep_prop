@@ -22,15 +22,11 @@
   margin-right: 20px;
 }
 
-/* @media screen and (min-width: 600px) {
-  .align{
-    margin-bottom: 200px;
-  }
-} */
+
 
 @media screen and (min-width: 500px) {
   .align{
-    margin-bottom: 380px;
+    margin-bottom: 300px;
   }
 }
 @media screen and (min-width: 1024px) {
