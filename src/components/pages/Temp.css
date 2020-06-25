@@ -1,65 +1,89 @@
 .canvas {
-    position: relative;
-    display: inline-block;
-  }
-  .canvas img {
-    width: 100%;
-  }
-  .canvas:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 3000px rgba(0, 0, 0, 0.6) inset;
-  }
-  
-.text-light{
-    color: #f8f9fa!important;
-  }
-  .font-weight-bolder {
-    font-weight: bolder!important;
+  position: relative;
+  display: inline-block;
 }
-  
-.text-center {
-  text-align: center!important;
+.canvas img {
+  width: 100%;
+}
+.canvas:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.6) inset;
 }
 
-@media (max-width: 769px)
-{
- 
-  .heading__text {
-    font-size: 50px;
-  }
-  .aligntext {
-    margin-bottom: 400px;
-  }
- 
-  .heading{
-    font-size: 40px;
-  }
-  .textalign{
-    margin-bottom: 330px;
-  }
-  .margin-left{
-    margin-left: 20px;
-    margin-right: 20px;
+.heading__text {
+  font-size: 80px;
+}
+
+@media screen and (min-width: 600px) {
+  .align{
+    margin-bottom: 200px;
   }
 }
-@media (min-width: 769px)
-{
+@media screen and (max-width: 1024px) {
   .heading__text {
-    font-size: 60px;
+    font-size: 50px !important;
   }
-  .aligntext {
-    margin-bottom: 300px;
+  .aboutTintTextPosition {
+    top: 25% !important;
   }
-  .heading{
-    font-size: 60px;
+  .hiringTintTextPosition {
+    top: 25% !important;
   }
-  .textalign{
-    margin-bottom: 50px;
+  
+  
+}
+@media screen and (max-width: 768px) {
+  .heading__text {
+    font-size: 45px !important;
   }
-  .margin-left{
-    margin-left: 60px;
+}
+@media screen and (max-width: 600px) {
+  .heading__text {
+    font-size: 30px !important;
   }
+  /* .aboutTintTextPosition {
+    top: 22% !important;
+    width: 90vw !important;
+  }
+  .hiringTintTextPosition {
+    top: 22% !important;
+  } */
+}
+@media screen and (max-width: 375px) {
+  .heading__text {
+    font-size: 28px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 21% !important;
+
+    width: 90vw !important;
+  }
+  .hiringTintTextPosition {
+    top: 21% !important;
+  } */
+}
+@media screen and (max-width: 360px) {
+  .heading__text {
+    font-size: 25px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 20% !important;
+    left: 7% !important;
+    transform: translate(0%, 0%) !important;
+    width: 90vw !important;
+  } */
+}
+@media screen and (max-width: 320px) {
+  .heading__text {
+    font-size: 20px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 23% !important;
+  }
+  .hiringTintTextPosition {
+    top: 23% !important;
+  } */
 }
