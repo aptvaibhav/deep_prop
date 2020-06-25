@@ -30,7 +30,7 @@ const contact = () => (
       }}
       className="aboutTintTextPosition w-75"
     >
-      <h1 className="text-light font-weight-bolder heading globalFontFamily text-center textalign">
+      <h1 className="text-light font-weight-bolder heading__text globalFontFamily text-center textalign">
         Let's get in Touch.
       </h1>
     </div>
