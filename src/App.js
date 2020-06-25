@@ -24,9 +24,11 @@ class App extends Component {
       <div>
       <Router>
       <ScrollToTop />
+      
       <Suspense fallback={<Loading />}>
     
-        <NavBar />
+      <NavBar />
+
       
         <div style={{ marginTop: "60px" }}>
         <Switch>
@@ -38,8 +40,9 @@ class App extends Component {
           <Route path="*" component={NotFound} />
         </Switch>
         </div>
-        </Suspense>
         <Footer />
+        </Suspense>
+        
       </Router>
       </div>
     );
