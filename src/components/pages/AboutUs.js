@@ -57,7 +57,7 @@ const About = () => {
         }}
         className="aboutTintTextPosition w-75"
       >
-        <h1 className="text-light font-weight-bolder heading__text globalFontFamily text-center">
+        <h1 className="text-light font-weight-bolder heading globalFontFamily text-center textalign">
           Redefining Your Dream Home/Business Outlet.
         </h1>
       </div>

@@ -18,7 +18,6 @@ const contact = () => (
         alt="About Us"
         style={{
           width: "100vw",
-          height: "600px",
         }}
       />
     </div>
@@ -31,7 +30,7 @@ const contact = () => (
       }}
       className="aboutTintTextPosition w-75"
     >
-      <h1 className="text-light font-weight-bolder heading__text globalFontFamily text-center">
+      <h1 className="text-light font-weight-bolder heading globalFontFamily text-center textalign">
         Let's get in Touch.
       </h1>
     </div>
@@ -74,7 +73,7 @@ const contact = () => (
         Contact Us
       </h2>
     </div>
-    <div style={{ marginLeft: "60px" }} className="text-muted">
+    <div className="text-muted margin-left">
       <p>
         For general queries, mail us at{" "}
         <a
@@ -82,7 +81,7 @@ const contact = () => (
           rel="noopener noreferrer"
           href="mailto:dpandbuilders@gmail.com"
         >
-         dpandbuilders@gmail.com
+          dpandbuilders@gmail.com
         </a>
       </p>
 
@@ -104,38 +103,38 @@ const contact = () => (
       </p>
       <br />
       <p>
-      <a
-        href="https://wa.me/919013610838"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Chat on WhatsApp
+        <a
+          href="https://wa.me/919013610838"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Chat on WhatsApp
         </a>
       </p>
       <br />
       <p>Registered Address</p>
 
-      <p>First Floor Studio Number 19, Plot number 10, Gateway Market Gardenia<br />
-        Sector-75,Noida<br />
-       Uttar Pradesh 201301</p>
-       <p
-      style={{
-        position: "fixed",
-        bottom: "0",
-        right: "0",
-        zIndex: 10,
-      }}
-      align="right"
-      className="p-3 m-0"
-    >
-      <a
-         target="_blank"
-          rel="noopener noreferrer"
-          href="tel:9810289415"
+      <p>
+        First Floor Studio Number 19, Plot number 10, Gateway Market Gardenia
+        <br />
+        Sector-75,Noida
+        <br />
+        Uttar Pradesh 201301
+      </p>
+      <p
+        style={{
+          position: "fixed",
+          bottom: "0",
+          right: "0",
+          zIndex: 10,
+        }}
+        align="right"
+        className="p-3 m-0"
       >
-        <img src={phone} alt="phone" height="50px" />
-      </a>
-    </p>
+        <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
+          <img src={phone} alt="phone" height="50px" />
+        </a>
+      </p>
     </div>
   </Aux>
 );
