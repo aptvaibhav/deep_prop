@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../../assets/images/newlogo.png";
+import logo from "../../../assets/images/2.jpeg";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import "./Toolbar.css";
 import { Link,NavLink } from "react-router-dom";
@@ -13,7 +13,7 @@ const toolbar = (props) => (
       </div>
       <div className="toolbar__logo">
         <Link to="/">
-          <img src={logo} alt="logo" height="60" width="200" style={{marginTop:"10px"}}/>
+          <img src={logo} alt="logo" height="70" width="500" style={{marginTop:"10px"}}/>
         </Link>
       </div>
       <div className="spacer" />
