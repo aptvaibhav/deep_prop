@@ -34,7 +34,7 @@ const home = () => (
         className="aboutTintTextPosition w-75"
        
       >
-        <h1 className="text-light font-weight-bolder heading__text globalFontFamily text-center align">
+        <h1 className="text-align text-light font-weight-bolder heading__text globalFontFamily text-center align">
           Book your Property now with Us.   
         </h1>
       </div>
