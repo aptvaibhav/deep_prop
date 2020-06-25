@@ -17,11 +17,22 @@
   font-size: 80px;
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
+  .align{
+    margin-bottom: 200px;
+  }
+} */
+@media screen and (min-width: 1024px) {
   .align{
     margin-bottom: 200px;
   }
 }
+@media screen and (min-width: 500px) {
+  .align{
+    margin-bottom: 380px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .heading__text {
     font-size: 50px !important;
