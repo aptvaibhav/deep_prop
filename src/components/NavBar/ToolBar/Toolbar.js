@@ -1,9 +1,9 @@
 import React from "react";
 
-import logo from "../../../assets/images/newlogo.png";
+import logo from "../../../assets/images/2.jpeg";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import "./Toolbar.css";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 
 const toolbar = (props) => (
   <header className="toolbar">
@@ -20,11 +20,11 @@ const toolbar = (props) => (
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <Link to="/about-us">About Us</Link>
+            <NavLink to="/about-us">About Us</NavLink>
           </li>
 
           <li>
-            <Link to="/contact-us">Contact Us</Link>
+            <NavLink to="/contact-us">Contact Us</NavLink>
           </li>
         </ul>
       </div>
