@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../../assets/images/2.jpeg";
+import logo from "../../../assets/images/newlogo.png";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import "./Toolbar.css";
 import { Link,NavLink } from "react-router-dom";
