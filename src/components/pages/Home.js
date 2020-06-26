@@ -31,9 +31,10 @@ const home = () => (
           transform: "translate(-50%, -50%)",
           marginTop:"50px"
         }}
-        className="w-75"
+        className="aboutTintTextPosition w-75"
+       
       >
-        <h1 className="aligntext text-light font-weight-bolder heading__text globalFontFamily text-center">
+        <h1 className="text-align text-light font-weight-bolder heading__text globalFontFamily text-center align">
           Book your Property now with Us.   
         </h1>
       </div>

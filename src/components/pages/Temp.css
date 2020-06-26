@@ -1,33 +1,101 @@
 .canvas {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+}
+.canvas img {
+  width: 100%;
+}
+.canvas:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.6) inset;
+}
+
+.heading__text {
+  font-size: 80px;
+}
+
+.margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+@media screen and (min-width: 500px) {
+  .align{
+    margin-bottom: 300px;
   }
-  .canvas img {
-    width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .align{
+    margin-bottom: 200px;
   }
-  .canvas:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 3000px rgba(0, 0, 0, 0.6) inset;
-  }
-  
+}
+@media screen and (max-width: 1024px) {
   .heading__text {
-    font-size: 60px;
+    font-size: 50px !important;
   }
-
-
-  .text-light{
-    color: #f8f9fa!important;
+  .aboutTintTextPosition {
+    top: 25% !important;
   }
-  .font-weight-bolder {
-    font-weight: bolder!important;
-}
+  .hiringTintTextPosition {
+    top: 25% !important;
+  }
   
-.text-center {
-  text-align: center!important;
+  
 }
-.aligntext {
-  margin-bottom: 300px;
+@media screen and (max-width: 768px) {
+  .heading__text {
+    font-size: 45px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heading__text {
+    font-size: 30px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 22% !important;
+    width: 90vw !important;
+  }
+  .hiringTintTextPosition {
+    top: 22% !important;
+  } */
+}
+@media screen and (max-width: 375px) {
+  .heading__text {
+    font-size: 28px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 21% !important;
+
+    width: 90vw !important;
+  }
+  .hiringTintTextPosition {
+    top: 21% !important;
+  } */
+}
+@media screen and (max-width: 360px) {
+  .heading__text {
+    font-size: 25px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 20% !important;
+    left: 7% !important;
+    transform: translate(0%, 0%) !important;
+    width: 90vw !important;
+  } */
+}
+@media screen and (max-width: 320px) {
+  .heading__text {
+    font-size: 20px !important;
+  }
+  /* .aboutTintTextPosition {
+    top: 23% !important;
+  }
+  .hiringTintTextPosition {
+    top: 23% !important;
+  } */
 }
