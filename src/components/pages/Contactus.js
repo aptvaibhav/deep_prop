@@ -8,10 +8,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link as LinkScroll } from "react-scroll";
 import { faChevronCircleDown } from "@fortawesome/free-solid-svg-icons";
 import phone from "../../assets/images/phone.png";
+import { Helmet } from "react-helmet";
 //        @fortawesome/free-solid-svg-icons
 
 const contact = () => (
   <Aux>
+   <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us | Deep Properties And Builders</title>
+        <meta
+          name="description"
+          content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
+        />
+      </Helmet>
     <div className="canvas">
       <img
         src={photo}

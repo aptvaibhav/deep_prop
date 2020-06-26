@@ -35,7 +35,7 @@ const About = () => {
         <title>About Us | Deep Properties And Builders</title>
         <meta
           name="description"
-          content="We provide Cooks and Chefs for your Parties at Home. Verified and trained professionals in Delhi NCR. Read reviews, see photos and learn more here."
+          content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
         />
       </Helmet>
 
