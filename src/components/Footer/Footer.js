@@ -49,6 +49,14 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </div>
+              <div className="mb-2">
+                <Link
+                  to="/sitemap.html"
+                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
+                >
+                  Sitemap
+                </Link>
+              </div>
 
               {/* <div className="mb-2">
                 <Link
@@ -69,36 +77,39 @@ export default function Footer() {
 
             <div className="text-light ">
               <div className="mb-2">
-                <Link
+                {/* <Link
                   to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Noida
-                </Link>
+                > */}
+               <p> Noida</p>  
+                {/* </Link> */}
               </div>
               <div className="mb-2">
-                <Link
+                {/* <Link
                   to="/"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Gurugram
-                </Link>
+                > */}
+                  <p>Yamuna Expressway</p>
+                {/* </Link> */}
               </div>
               <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Ghaziabad
-                </Link>
+               <p>Gurugram</p>
+                  
+               
               </div>
               <div className="mb-2">
-                <Link
-                  to="/"
-                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
-                >
-                  Greater Noida
-                </Link>
+                
+                <p>   Ghaziabad</p>
+               
+               
+              </div>
+              <div className="mb-2">
+               
+                <p>
+                Greater Noida
+                </p>
+                
+               
               </div>
             </div>
           </Col>

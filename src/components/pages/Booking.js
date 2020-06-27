@@ -27,7 +27,8 @@ const Booking = () => (
         industry knowledge, market trends and customer preferences. DPAB family
         having well-educated professionals and consultants on-board assure
         delivery of our value system offering a selfless, trustworthy and
-        reliable companionship throughout the buying transactional experience,{" "}
+        reliable companionship throughout the buying transactional experience. If
+        you want to <b> Buy or Sell your property</b>{" "}
         <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
           Call us now.
         </a>
@@ -81,7 +82,7 @@ const Booking = () => (
       <br />
       <br />
     </Container>
-  
+
     {/* <p
       style={{
         position: "fixed",

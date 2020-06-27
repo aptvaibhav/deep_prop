@@ -9,6 +9,7 @@ import ScrollToTop from "../src/components/pages/ScrollToTop";
 const Home = lazy(() => import("./components/pages/Home"));
 const ContactUs = lazy(() => import("../src/components/pages/Contactus"));
 const AboutUs = lazy(() => import("../src/components/pages/AboutUs"));
+const SiteMap = lazy(() => import("../src/components/pages/SiteMap"));
 // const City = lazy(() => import("./components/pages/City"));
 
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/contact-us" component={ContactUs}/>
           <Route exact path="/about-us" component={AboutUs}/>
+          <Route exact path="/sitemap.html" component={SiteMap}/>
           {/* <Route exact path="/city" component={City}/> */}
           <Route path="*" component={NotFound} />
         </Switch>
