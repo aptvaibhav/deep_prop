@@ -1,28 +1,30 @@
 import React from "react";
 import Aux from "../../HOC/Aux";
-import photo from "../../assets/images/home.jpeg";
+// import photo from "../../assets/images/home.jpeg";
 import "../pages/Temp.css";
 import "../../assets/CSS/globalstyles.css";
 import "../../assets/CSS/style.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link as LinkScroll } from "react-scroll";
-import { faChevronCircleDown } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { Link as LinkScroll } from "react-scroll";
+// import { faChevronCircleDown } from "@fortawesome/free-solid-svg-icons";
 import phone from "../../assets/images/phone.png";
 import { Helmet } from "react-helmet";
 //        @fortawesome/free-solid-svg-icons
 import Mapper from "../../containers/Mapper";
+import { Row, Col, Container } from "react-bootstrap";
 
 const contact = () => (
   <Aux>
-   <Helmet>
-        <meta charSet="utf-8" />
-        <title>Contact Us | Deep Properties And Builders</title>
-        <meta
-          name="description"
-          content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
-        />
-      </Helmet>
-    <div className="canvas">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Contact Us | Deep Properties And Builders</title>
+      <meta
+        name="description"
+        content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
+      />
+    </Helmet>
+
+    {/* <div className="canvas">
       <img
         src={photo}
         alt="About Us"
@@ -72,18 +74,19 @@ const contact = () => (
           </h6>
         </>
       )}
-    </div>
+    </div> */}
     <br />
     <br />
-    <div style={{ textAlign: "center" }}>
-      <h2
+    <div className="center">
+   
+      <h1
         className="text-center globalDarkGoldenColor globalFontFamily font-weight-bolder"
         id="move__down__about"
       >
         Contact Us
-      </h2>
-    </div>
-    <div className="text-muted margin">
+      </h1>
+  
+    {/* <div className="text-muted margin">
       <p>
         For general queries, mail us at{" "}
         <a
@@ -131,22 +134,61 @@ const contact = () => (
         <br />
         Uttar Pradesh 201307
       </p>
-      <p
-        style={{
-          position: "fixed",
-          bottom: "0",
-          right: "0",
-          zIndex: 10,
-        }}
-        align="right"
-        className="p-3 m-0"
-      >
-        <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
-          <img src={phone} alt="phone" height="50px" />
-        </a>
-      </p>
+    
+    </div> */}
+    <br />
+    <br />
+   
+    <Container>
+      <Row>
+        
+          <Col className="marginleft1">
+            <h3 className="marginleft2">Phone</h3>
+            <div className="text-muted">
+              <h4>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="tel:9810289415"
+                >
+                  {" "}
+                  +91-9810289415
+                </a>
+              </h4>
+            </div>
+          </Col>
+          <Col className="marginleft3">
+            <h3 className="marginleft2">Address</h3>
+            <div className="text-muted">
+              <p>
+                First Floor Shop No. 19, Plot 10
+                <br />
+                Gardenia Gateway,Sector 75, Noida 
+                <br />
+                Uttar Pradesh 201307
+              </p>
+            </div>
+          </Col>
+        
+      </Row>
+    </Container>
+    <p
+      style={{
+        position: "fixed",
+        bottom: "0",
+        right: "0",
+        zIndex: 10,
+      }}
+      align="right"
+      className="p-3 m-0"
+    >
+      <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
+        <img src={phone} alt="phone" height="50px" />
+      </a>
+    </p>
+  
+      <Mapper />
     </div>
-    <Mapper />
   </Aux>
 );
 

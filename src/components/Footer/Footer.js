@@ -9,7 +9,7 @@ import "../../assets/CSS/globalstyles.css";
 // 3rd party libraries
 import { Link } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
-import { SocialIcon } from "react-social-icons";
+import { SocialIcon } from "react-social-icons";  
 
 export default function Footer() {
   return (

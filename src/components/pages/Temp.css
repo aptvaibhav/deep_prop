@@ -14,7 +14,7 @@
 }
 
 .heading__text {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .margin {
@@ -32,6 +32,15 @@
 @media screen and (min-width: 1024px) {
   .align{
     margin-bottom: 200px;
+  }
+  .marginleft1{
+    margin-left: 1%;
+  }
+  .marginleft2{
+    margin-left: 20%;
+  }
+  .marginleft3{
+    margin-left: 35%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -98,4 +107,12 @@
   .hiringTintTextPosition {
     top: 23% !important;
   } */
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
 }
