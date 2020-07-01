@@ -3,24 +3,27 @@ import React from "react";
 // import photo from "../../assets/images/home.jpeg";
 // import whatsapp from "../../assets/whatsapp.png";
 import phone from "../../assets/images/phone.png";
+import whyus from "../../assets/images/whyus.png";
 
 import vision from "../../assets/vision.jpg";
 import { Container, Row, Col } from "react-bootstrap";
+import { noAuto } from "@fortawesome/fontawesome-svg-core";
+import { Redirect } from "react-router-dom";
 const Booking = () => (
   <div>
     <Container>
       {/* WHO ARE WE? */}
       <br />
       <br />
-      <p align="center">
+      {/* <p align="center">
         <span className="globalLightGoldenColor globalFontSize25 font-weight-bolder globalFontFamily">
           Why Choose Us
         </span>
       </p>
 
-      <br />
+      <br /> */}
 
-      <p className="globalFontFamily text-justify text-muted">
+      {/* <p className="globalFontFamily text-justify text-muted">
         Being the first one to have organized the realty services sector, we
         very well understands the pulse of the market and the mental space of
         the prospective buyers. This long run has equipped DPAB with deep
@@ -32,12 +35,44 @@ const Booking = () => (
         <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
           Call us now.
         </a>
-      </p>
-      <br />
-      <br />
-      <br />
-      <br />
+      </p> */}
+
       {/* OUR VISION */}
+      <Row>
+        <Col>
+          <img
+            src={whyus}
+            alt="Why Choose Us"
+            style={{
+              width: "500px"
+            }}
+          />
+        </Col>
+        <Col>
+          <h1 style={{ marginTop: "20%" }}>WHY CHOOSE US</h1>
+          <hr style={{ backgroundColor: "#ffec47", height: "12px" }} />
+          <p>
+          Being the first one to have organized the realty services sector, we
+        very well understands the pulse of the market and the mental space of
+        the prospective buyers. If
+        you want to <b> Buy or Sell your property</b>{" "}
+        <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
+          Call us now.
+        </a>
+          </p>
+          {/* <hr 
+        width: 100%;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #b7d0e2;
+          /> */}
+        </Col>
+      </Row>
+      <br />
+      <br />
+      <br />
+      <br />
       <p align="center">
         <span className="globalLightGoldenColor globalFontSize25 font-weight-bolder globalFontFamily">
           YOUR PARTNER IN PROPERTY, PEACE & PROSPERITY

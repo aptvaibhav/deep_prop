@@ -27,7 +27,7 @@ const home = () => (
       <div className='player-wrapper'>
             <ReactPlayer
           
-            url= 'video.mp4'
+            url= 'video4.mp4'
             width='100vw'
             height='400px'
             controls = {true}
@@ -35,7 +35,7 @@ const home = () => (
             playing={true}
             />
         </div>
-      <div
+      {/* <div
         style={{
           position: "absolute",
           top: "50%",
@@ -49,7 +49,7 @@ const home = () => (
         <h1 className="text-align font-weight-bolder heading__text globalFontFamily text-center align">
           Book your Property now with Us.   
         </h1>
-      </div>
+      </div> */}
       {/* <div className="container mobileHeightFix">
           
          
