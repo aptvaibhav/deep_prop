@@ -10,6 +10,7 @@ import { faChevronCircleDown } from "@fortawesome/free-solid-svg-icons";
 import phone from "../../assets/images/phone.png";
 import { Helmet } from "react-helmet";
 //        @fortawesome/free-solid-svg-icons
+import Mapper from "../../containers/Mapper";
 
 const contact = () => (
   <Aux>
@@ -124,11 +125,11 @@ const contact = () => (
       <p>Registered Address</p>
 
       <p>
-        First Floor Studio Number 19, Plot number 10, Gateway Market Gardenia
+      First Floor Shop No. 19, Plot 10, Gardenia Gateway
         <br />
-        Sector-75,Noida
+        Sector 75, Noida
         <br />
-        Uttar Pradesh 201301
+        Uttar Pradesh 201307
       </p>
       <p
         style={{
@@ -145,6 +146,7 @@ const contact = () => (
         </a>
       </p>
     </div>
+    <Mapper />
   </Aux>
 );
 

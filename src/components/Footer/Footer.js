@@ -121,8 +121,7 @@ export default function Footer() {
             <div className="text-light ">
               <div className="mb-2">
                 <p>
-                  First Floor Studio Number 19, Plot number 10, Gateway Market
-                  Gardenia Sector-75,Noida-201301
+               First Floor Shop No. 19, Plot 10, Gardenia Gateway, Sector 75, Noida, Uttar Pradesh 201307
                 </p>
               </div>
               <div className="mb-2">
