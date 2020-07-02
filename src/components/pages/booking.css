@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+.image{
+    width: 300px;
+    padding: auto;
+}
+.display{
+    display: none;
+}
+}
+@media screen and (min-width: 768px) {
+    .image{
+        width: 500px;
+    }
+    .display1{
+        display: none;
+    }
+    }

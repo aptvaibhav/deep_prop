@@ -3,8 +3,9 @@ import React from "react";
 import Aux from "../../HOC/Aux";
 
 
-// import photo from "../../assets/images/picture.jpg";
+import photo from "../../assets/images/picture.jpg";
 import "../pages/Temp.css";
+import "../pages/booking.css";
 import Review from "./Review";
 import Booking from "../pages/Booking";
  import "../../assets/CSS/globalstyles.css";
@@ -14,7 +15,7 @@ import Booking from "../pages/Booking";
 
 const home = () => (
   <Aux>
-   {/* <div className="canvas">
+   <div className="canvas display1">
         <img
           src={photo}
           alt="Home"
@@ -23,19 +24,18 @@ const home = () => (
             height: "300px"
           }}
         />
-      </div> */}
-      <div className='player-wrapper'>
+      </div>
+      <div className='display'>
             <ReactPlayer
           
             url= 'video4.mp4'
-            width='100vw'
-            height='400px'
+            width='100%'
             controls = {true}
             loop={true}
             playing={true}
             />
         </div>
-      {/* <div
+      <div
         style={{
           position: "absolute",
           top: "50%",
@@ -43,13 +43,13 @@ const home = () => (
           transform: "translate(-50%, -50%)",
           marginTop:"50px"
         }}
-        className="aboutTintTextPosition w-75"
+        className="aboutTintTextPosition w-75 display1" 
        
       >
-        <h1 className="text-align font-weight-bolder heading__text globalFontFamily text-center align">
+        <h1 className="text-light text-align font-weight-bolder heading__text globalFontFamily text-center align">
           Book your Property now with Us.   
         </h1>
-      </div> */}
+      </div>
       {/* <div className="container mobileHeightFix">
           
          

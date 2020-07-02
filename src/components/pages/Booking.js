@@ -4,11 +4,13 @@ import React from "react";
 // import whatsapp from "../../assets/whatsapp.png";
 import phone from "../../assets/images/phone.png";
 import whyus from "../../assets/images/whyus.png";
+import "../pages/booking.css";
+
 
 import vision from "../../assets/vision.jpg";
 import { Container, Row, Col } from "react-bootstrap";
-import { noAuto } from "@fortawesome/fontawesome-svg-core";
-import { Redirect } from "react-router-dom";
+// import { noAuto } from "@fortawesome/fontawesome-svg-core";
+// import { Redirect } from "react-router-dom";
 const Booking = () => (
   <div>
     <Container>
@@ -43,9 +45,7 @@ const Booking = () => (
           <img
             src={whyus}
             alt="Why Choose Us"
-            style={{
-              width: "500px"
-            }}
+            className="image"
           />
         </Col>
         <Col>
