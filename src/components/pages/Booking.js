@@ -96,7 +96,7 @@ const Booking = () => (
             src={desktop}
             alt="Property"
             className="image display"
-            style={{width:"1100px"}}
+            style={{width:"100%"}}
           />
         <img
             src={mobile}
