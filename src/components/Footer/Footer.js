@@ -3,8 +3,7 @@ import React from "react";
 // CSS
 import "../../assets/CSS/globalstyles.css";
 
-// Image
-// import logo from '../assets/logo_white.png';
+
 
 // 3rd party libraries
 import { Link } from "react-router-dom";
