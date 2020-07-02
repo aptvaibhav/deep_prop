@@ -3,7 +3,7 @@ import React from "react";
 import Aux from "../../HOC/Aux";
 
 
-import photo from "../../assets/images/picture.jpg";
+// import photo from "../../assets/images/picture.jpg";
 import "../pages/Temp.css";
 import "../pages/booking.css";
 import Review from "./Review";
@@ -15,16 +15,7 @@ import Booking from "../pages/Booking";
 
 const home = () => (
   <Aux>
-   <div className="canvas display1">
-        <img
-          src={photo}
-          alt="Home"
-          style={{
-            width: "100vw",
-            height: "300px"
-          }}
-        />
-      </div>
+
       <div className='display'>
             <ReactPlayer
           
@@ -35,7 +26,27 @@ const home = () => (
             playing={true}
             />
         </div>
-      <div
+        <div className='display1'>
+            <ReactPlayer
+          
+            url= 'video5.mp4'
+            width='100%'
+            controls = {true}
+            loop={true}
+            playing={true}
+            />
+        </div>
+        {/* <div className="canvas display1">
+        <img
+          src={photo}
+          alt="Home"
+          style={{
+            width: "100vw",
+            height: "300px"
+          }}
+        />
+      </div> */}
+      {/* <div
         style={{
           position: "absolute",
           top: "50%",
@@ -49,7 +60,7 @@ const home = () => (
         <h1 className="text-light text-align font-weight-bolder heading__text globalFontFamily text-center align">
           Book your Property now with Us.   
         </h1>
-      </div>
+      </div> */}
       {/* <div className="container mobileHeightFix">
           
          

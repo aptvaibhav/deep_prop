@@ -51,6 +51,14 @@ export default function Footer() {
               </div>
               <div className="mb-2">
                 <Link
+                  to="/hiring"
+                  className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
+                >
+                  We are hiring
+                </Link>
+              </div>
+              <div className="mb-2">
+                <Link
                   to="/sitemap.html"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >

@@ -4,10 +4,14 @@ import React from "react";
 // import whatsapp from "../../assets/whatsapp.png";
 import phone from "../../assets/images/phone.png";
 import whyus from "../../assets/images/whyus.png";
+import services from "../../assets/images/services.png";
+
+import desktop from "../../assets/images/desktop.png";
+import mobile from "../../assets/images/mobile.png";
+import ourservice from "../../assets/images/ourservice.png";
+
 import "../pages/booking.css";
 
-
-import vision from "../../assets/vision.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 // import { noAuto } from "@fortawesome/fontawesome-svg-core";
 // import { Redirect } from "react-router-dom";
@@ -41,15 +45,15 @@ const Booking = () => (
 
       {/* OUR VISION */}
       <Row>
-        <Col>
+        <Col sm={{order:1}}>
           <img
             src={whyus}
             alt="Why Choose Us"
             className="image"
           />
         </Col>
-        <Col>
-          <h1 style={{ marginTop: "20%" }}>WHY CHOOSE US</h1>
+        <Col sm={{order:12}}>
+          <h1 style={{ marginTop: "20%" }}  className="textalign1">WHY CHOOSE US</h1>
           <hr style={{ backgroundColor: "#ffec47", height: "12px" }} />
           <p>
           Being the first one to have organized the realty services sector, we
@@ -60,26 +64,63 @@ const Booking = () => (
           Call us now.
         </a>
           </p>
-          {/* <hr 
-        width: 100%;
-        height: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #b7d0e2;
-          /> */}
         </Col>
       </Row>
       <br />
       <br />
       <br />
       <br />
-      <p align="center">
+      <Row>
+        <Col sm={{order:12}}>
+      <img
+            src={services}
+            alt="Our Services"
+            className="image"
+          />
+       </Col>
+        <Col sm={{order:1}}>
+        <img
+            src={ourservice}
+            alt="Our Services"
+            className="image"
+          />
+        </Col>
+        </Row>
+      <br />
+      <br />
+      <br />
+      <br />
+   
+        
+      <img
+            src={desktop}
+            alt="Property"
+            className="image display"
+            style={{width:"1100px"}}
+          />
+        <img
+            src={mobile}
+            alt="Property"
+            className="image display1"
+          />
+          <div className="display1">
+           <h3 style={{ marginTop: "20%",textAlign:"center",color:"#ab0606" }}> YOUR PARTNER IN PROPERTY, PEACE & PROSPERITY</h3>
+          {/* <hr style={{ backgroundColor: "#e69900", height: "10px" }} /> */}
+          <p style={{textAlign:"center"}}>
+          Established in the year 1997, by its visionary founder Amrish Tyagi,
+            Deep Properties And Builders is the one of the largest real estate
+            services company of India.
+   
+          </p>
+          </div>
+      
+        {/* <p align="center">
         <span className="globalLightGoldenColor globalFontSize25 font-weight-bolder globalFontFamily">
           YOUR PARTNER IN PROPERTY, PEACE & PROSPERITY
         </span>
-      </p>
+      </p>  */}
 
-      <br />
+      {/* <br />
 
       <Row>
         <Col md={7}>
@@ -111,7 +152,7 @@ const Booking = () => (
             alt="Our Vision"
           />
         </Col>
-      </Row>
+      </Row> */}
       <br />
       <br />
       <br />

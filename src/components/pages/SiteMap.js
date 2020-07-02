@@ -29,6 +29,10 @@ const SiteMap = () => {
             <Link to="/contact-us">Contact Us</Link>
           </li>
           <br />
+          <li>
+            <Link to="/hiring">We are hiring</Link>
+          </li>
+          <br />
         </ul>
       </Container>
     </ul>

@@ -26,6 +26,9 @@ const toolbar = (props) => (
           <li>
             <NavLink to="/contact-us">Contact Us</NavLink>
           </li>
+          <li>
+            <NavLink to="/hiring">We are hiring</NavLink>
+          </li>
         </ul>
       </div>
     </nav>
