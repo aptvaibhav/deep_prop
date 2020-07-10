@@ -56,14 +56,14 @@ export default function Footer() {
                   We are hiring
                 </Link>
               </div>
-              <div className="mb-2">
+              {/* <div className="mb-2">
                 <Link
                   to="/sitemap.html"
                   className=" text-decoration-none text-light font-weight-bold globalFontSize14 globalFontFamily"
                 >
                   Sitemap
                 </Link>
-              </div>
+              </div> */}
 
               {/* <div className="mb-2">
                 <Link
@@ -128,7 +128,7 @@ export default function Footer() {
             <div className="text-light ">
               <div className="mb-2">
                 <p>
-               First Floor Shop No. 19, Plot 10, Gardenia Gateway, Sector 75, Noida, Uttar Pradesh 201307
+               S-FF 19, Plot number 10, Gardenia Gateway, Sector 75, Noida, Uttar Pradesh 201307
                 </p>
               </div>
               <div className="mb-2">
