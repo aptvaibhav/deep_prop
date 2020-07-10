@@ -32,7 +32,7 @@ class Wearehiring extends React.Component {
 
           <meta
             name="description"
-            content="We’re looking for passionate people. See Current Openings at Jobs. Email at deepandbuilders@gmail.com Let’s build India’s largest platform for Real Estate."
+            content="We’re looking for passionate people. See Current Openings at Jobs. Email at deepandbuilders@gmail.com Let’s build India’s largest platform for Real Estate Property Dealer.Buy your Property with us in Noida,Gurugram,Greater Noida,Ghaziabad,Yamuna Expressway."
           ></meta>
         </Helmet>
       
@@ -164,7 +164,7 @@ class Wearehiring extends React.Component {
           <div className="py-5">
             <h4 className="mb-0 globalFontFamily">
               <b>
-                Passionate to work us? Drop a note at  <a
+                Passionate to work with us? Drop a note at  <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="mailto:dpandbuilders@gmail.com"

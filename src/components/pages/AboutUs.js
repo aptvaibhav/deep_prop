@@ -35,7 +35,7 @@ const About = () => {
         <title>About Us | Deep Properties And Builders</title>
         <meta
           name="description"
-          content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
+          content="Know more about Deep Properties And Builders and about our founder Amrish Tyagi. Buy your Property with us in Noida,Yamuna Expressway,Greater Noida,Gurugram,Ghaziabad."
         />
       </Helmet>
 

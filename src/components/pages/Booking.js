@@ -9,7 +9,7 @@ import services from "../../assets/images/services.png";
 import desktop from "../../assets/images/desktop.png";
 import mobile from "../../assets/images/mobile.png";
 import ourservice from "../../assets/images/ourservice.png";
-
+// import review from "../../assets/images/mainreview.png";
 import "../pages/booking.css";
 
 import { Container, Row, Col } from "react-bootstrap";
@@ -56,9 +56,7 @@ const Booking = () => (
           <h1 style={{ marginTop: "20%" }}  className="textalign1">WHY CHOOSE US</h1>
           <hr style={{ backgroundColor: "#ffec47", height: "12px" }} />
           <p>
-          Being the first one to have organized the realty services sector, we
-        very well understands the pulse of the market and the mental space of
-        the prospective buyers. If
+          Being the first one to have organized the realty services sector. Propety Dealer in Noida,Greater Noida,Yamuna Expressway,Gurugram,Ghaziabad since 1997. If
         you want to <b> Buy or Sell your property</b>{" "}
         <a target="_blank" rel="noopener noreferrer" href="tel:9810289415">
           Call us now.
@@ -113,6 +111,16 @@ const Booking = () => (
    
           </p>
           </div>
+          {/* <br />
+      <br />
+      <br />
+      <br /> */}
+          {/* <img
+            src={review}
+            alt="review"
+            className="image display"
+            style={{width:"100%"}}
+          /> */}
       
         {/* <p align="center">
         <span className="globalLightGoldenColor globalFontSize25 font-weight-bolder globalFontFamily">

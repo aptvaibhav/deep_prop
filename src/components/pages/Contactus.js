@@ -20,7 +20,7 @@ const contact = () => (
       <title>Contact Us | Deep Properties And Builders</title>
       <meta
         name="description"
-        content="Delhi Ghaziabad Gurugram Noida Greater Noida Real Estate Property Dealer: To Buy Sell Rent Properties with us,Call us at +91-9810289415- deepprop.com"
+        content="Contact Deep Properties And Builders Property Dealer in Noida,Yamuna Expressway,Greater Noida,Gurugram.Contact us-9810289415"
       />
     </Helmet>
 
@@ -161,7 +161,7 @@ const contact = () => (
             <h3 className="marginleft2">Address</h3>
             <div className="text-muted">
               <p>
-                First Floor Shop No. 19, Plot 10
+                S-FF 19, Plot number 10
                 <br />
                 Gardenia Gateway,Sector 75, Noida 
                 <br />

@@ -18,7 +18,7 @@ const sideDrawer = props => {
           <Link to="/contact-us">Contact Us</Link>
         </li>
         <li>
-          <Link to="/hiring">Wr are hiring</Link>
+          <Link to="/hiring">We are hiring</Link>
         </li>
       </ul>
     </nav>
